@@ -40,10 +40,10 @@ $(document).ready(() => {
     $('#guide a, #content a').css({
       color: 'rgb(75, 75, 150)'
     });
-    $('div').css({
+    $('article').css({
       backgroundColor: 'rgb(240, 240, 255)'
     });
-    $('div p').css({
+    $('article p').css({
       backgroundColor: 'rgb(220, 220, 255)',
       borderTop: '1px solid rgb(150, 150, 200)'
     });
@@ -59,13 +59,13 @@ $(document).ready(() => {
   $('.light').on('click', () => {
     if (window.matchMedia('(max-width: 420px)').matches) {
       // max-width: 420px
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(240, 240, 255)',
         borderBottom: '0'
       });
     } else {
       // width > 420px
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(220, 220, 255)',
         borderBottom: '1px solid rgb(150, 150, 200)'
       });
@@ -75,12 +75,12 @@ $(document).ready(() => {
   // handling resize for light mode colors
   $(window).resize(() => {
     if (window.matchMedia('(max-width: 420px)').matches & $('body').css('background-color') == 'rgb(255, 255, 255)') {
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(240, 240, 255)',
         borderBottom: '0'
       });
     } else if (!window.matchMedia('(max-width: 420px)').matches & $('body').css('background-color') == 'rgb(255, 255, 255)') {
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(220, 220, 255)',
         borderBottom: '1px solid rgb(150, 150, 200)'
       });
@@ -96,10 +96,10 @@ $(document).ready(() => {
     $('#guide a, #content a').css({
       color: 'rgb(230, 230, 255)'
     });
-    $('div').css({
+    $('article').css({
       backgroundColor: 'rgb(80, 80, 85)'
     });
-    $('div p').css({
+    $('article p').css({
       backgroundColor: 'rgb(55, 55, 64)',
       borderTop: '1px solid rgb(0, 0, 0)'
     });
@@ -114,12 +114,12 @@ $(document).ready(() => {
   // dark mode media queries
   $('.dark').on('click', () => {
     if (window.matchMedia('(max-width: 420px)').matches) {
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(80, 80, 85)',
         borderBottom: '0'
       })
     } else {
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(55, 55, 64)',
         borderBottom: '1px solid rgb(0, 0, 0)'
       });
@@ -129,12 +129,12 @@ $(document).ready(() => {
   // handling resize for dark mode colors
   $(window).resize(() => {
     if (window.matchMedia('(max-width: 420px)').matches & $('body').css('background-color') == 'rgb(0, 0, 0)') {
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(80, 80, 85)',
         borderBottom: '0'
       });
     } else if (!window.matchMedia('(max-width: 420px)').matches & $('body').css('background-color') == 'rgb(0, 0, 0)') {
-      $('div h1, div h2').css({
+      $('article h1, article h2').css({
         backgroundColor: 'rgb(55, 55, 64)',
         borderBottom: '1px solid rgb(0, 0, 0)'
       });
