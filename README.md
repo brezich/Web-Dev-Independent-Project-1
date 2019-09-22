@@ -1,12 +1,15 @@
 # Web Dev Independent Project #1
+
 Turn a Site Mobile Responsive -- My solution
 
 ## This is my first independent project and I really enjoyed working on it!
 
 Special thanks to Codecademy for the great job they did! You made learning web development and computer programming accessible and enjoyable for me. Thank you guys and all the best!
 
-CodePen link:\
-https://codepen.io/brezich/pen/qBWNwXP
+###### Preview
+
+* [GitHub Pages](http://brezich.github.io/Web-Dev-Independent-Project-1)
+* [CodePen Link](https://codepen.io/brezich/pen/qBWNwXP)
 
 ## Objective
 
@@ -43,8 +46,8 @@ Depending on where you are on your Path, there may be multiple technology option
 
 * [Fashion blog source code](https://s3.amazonaws.com/codecademy-content/courses/learn-html/elements-and-structure/fashion.html)
 
-
 ###### And this is how it looks now...
+
 ## Project Images: iPhone 375x667 Light and Dark Mode
 
 <img align="left" width="180" src="https://github.com/brezich/Web-Dev-Independent-Project-1/blob/master/img/iphone8-light.png">
